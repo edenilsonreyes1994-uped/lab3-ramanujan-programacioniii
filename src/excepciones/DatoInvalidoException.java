@@ -1,6 +1,6 @@
 package excepciones;
 
-// Excepción Unchecked para validación de entradas de usuario
+// Excepción Unchecked (hereda de RuntimeException) para reglas de entrada
 public class DatoInvalidoException extends RuntimeException {
     public DatoInvalidoException(String mensaje) {
         super(mensaje);

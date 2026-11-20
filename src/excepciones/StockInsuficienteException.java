@@ -1,6 +1,6 @@
 package excepciones;
 
-// Excepción Checked con dato extra para el dominio del proyecto
+// Excepción Checked (hereda de Exception) con dato extra y getter
 public class StockInsuficienteException extends Exception {
     private int stockDisponible;
 
